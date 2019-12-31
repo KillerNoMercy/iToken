@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/KillerNoMercy/iToken.git
+          uri: https://github.com/KillerNoMercy/iToken/respo
           search-paths: respo
           username: KillerNoMercy
           password: zsl317309
