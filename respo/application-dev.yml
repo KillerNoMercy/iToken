@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/KillerNoMercy/iToken.git
+          search-paths: respo
+          username: KillerNoMercy
+          password: zsl317309
+      label: master
